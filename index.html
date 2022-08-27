@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Tonol Planejados e Mari LTDA</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="h">
+        <h1>Projeto Mari</h1>
+        <p>Complete com suas informações</p>
+    </div>
+
+        <form class="formulario">
+        <fieldset class="form"> 
+
+            <fieldset class="campos">
+            <label for="">Nome</label> <br>
+            <input type="nome" name="nome" placeholder="Insira seu nome aqui">
+            </fieldset>
+
+            <fieldset class="campos">
+                <label for="Sobrenome">Sobrenome</label> <br>
+                <input type="sobrenome" name="sobrenome" id="" placeholder="Insira seu segundo nome">
+                </fieldset>
+
+            <fieldset class="campos">
+                <label for="">tipo de imóvel</label> <br>
+                <input type="imovel" name="imovel" placeholder="Ex: casa, apartamento(...)">
+            </fieldset>
+
+            <fieldset class="campos">
+                <label for="">Endereço do imóvel</label><br>
+                <input type="endereço" name="endereço" placeholder="Insira seu endereço aqui">
+            </fieldset>
+
+            <fieldset class="campos">
+                <label for="">Tipo de projeto</label> <br>
+                <input type="tipo" name="tipo" placeholder="Ex: reforma total, decoração(...)">
+            </fieldset>
+
+            <fieldset class="campos">
+                <label for="">Informações de contato</label> <br>
+                <input type="contato" name="contato" placeholder="Informe seu número e  e-mail">
+            </fieldset>
+
+            <fieldset class="option">
+            <div class="campo">
+
+                    <select id="option">
+                        <option selected disabled value="">Pessoa física ou Jurídica ?</option>
+                        <option>Projeto para pessoa física</option>
+                        <option>Projeto para pessoa jurídica</option>
+                        <option>Projeto para um órgão governamental</option>
+                        <option>Pessoa física mas projeto para pessoa jurídica</option>
+                        <option>Estou só consultando os valores</option>
+                    </div>
+            </fieldset>
+           
+            <fieldset class="camp">
+                <label class="esc" for="coment">Conte-nos o que planeja fazer na casa:</label>
+                <textarea class="space" cols="48em" rows="3"></textarea>
+            </fieldset>
+
+            <div class="button">
+             <button class="botao" type="submit"><strong>Concluir</strong></button>
+            </div>
+       
+    </form>
+</body>
+</html>

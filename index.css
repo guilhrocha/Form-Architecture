@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+
+body {
+    background-image: url(/capa.png);
+    background-size: cover;
+    margin: 0;
+}
+.h {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    font-family: Qwitcher Grypen;
+}
+h1 {
+    font-size: 60px;
+}
+p {
+    font-size: 30px;
+}
+.form {
+    position: relative;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-right: 30%;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+}
+.campos {
+    text-align: center;
+    border-radius: 20px;
+    font-family: Qwitcher Grypen;
+    font-size: 15px;
+}
+.option {
+    text-align: center;
+    justify-content: center;
+}
+.observações {
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.space {
+    margin-left: 50px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.button {
+    text-align: center;}
+
+.botao:hover {
+    background: gray;
+}
+.esc {
+    text-align: left;
+}
